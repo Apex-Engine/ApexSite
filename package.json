@@ -1,0 +1,31 @@
+{
+  "name": "apexsite",
+  "version": "1.0.0",
+  "description": "a site for ApexRP",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apex-Engine/ApexSite.git"
+  },
+  "keywords": [
+    "godly"
+  ],
+  "author": "Serobliss || Hex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apex-Engine/ApexSite/issues"
+  },
+  "homepage": "https://github.com/Apex-Engine/ApexSite#readme"
+}
