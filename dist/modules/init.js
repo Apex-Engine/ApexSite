@@ -1,15 +1,17 @@
+//Create the renderer
+var renderer = new PIXI.CanvasRenderer({
+  width:window.innerWidth,
+  height:window.innerHeight,
+  autoresize:true,
+  antialias:true,
+  resolution:1,
+});
 
+//Add the canvas to the HTML document
+document.body.appendChild(renderer.view);
 
-//Initizinging
-function init() {
-  initilizePixi();
-  runPixi();
-}
-init();
-draw();
+//Create a container object called the `stage`
+var stage = new PIXI.Container();
 
-
-
-function initilizePixi() {
-
-}
+//Tell the `renderer` to `render` the `stage`
+renderer.render(stage);
